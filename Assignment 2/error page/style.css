@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper {
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+}
+
+.left,
+.right {
+    padding: 0 30px 30px;
+}
+
+.left {
+    border-right: 1px solid #e9ebef;
+    color: #473edb;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+p {
+    color: #8f949f;
+    margin-bottom: 50px;
+}
+
+a {
+    text-decoration: none;
+    padding: 12px 18px;
+    border-radius: 8px;
+}
+
+.back__btns {
+    color: #fff;
+    background-color: #473edb;
+}
+
+.contact__btns {
+    color: #473edb;
+    background-color: #e0e7fe;
+    margin-left: 8px;
+}
+  .content .btns a:hover{
+    text-decoration-color: #fff;
+    background: #4f46e5;
+    color: #fff;
+  }
+.btns:hover span{
+    width:auto;
+    text-decoration-color: blue;
+
+ }
+.btns:hover{
+     border: none  ;
+     color: white;
+ }

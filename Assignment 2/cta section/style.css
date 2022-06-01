@@ -1,0 +1,62 @@
+.cta-section{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    font-family: 'Roboto Flex', sans-serif;
+    
+    
+}
+.cta-section h1{
+    
+    font-size: xx-large;
+    margin-top: -10px;
+    font-family: 'Roboto Flex', sans-serif;
+    
+    
+
+}
+button{
+    border-radius: 5px;
+    border-color: #ffffff;
+    width: 150px;
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 10px;
+    color: rgb(26, 25, 25);
+    font-weight: bold;
+    background: transparent;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative ;
+    text-decoration: solid ;
+    
+
+
+ }
+ span{
+     background: #2663eb;
+     height: 100%;
+     width: 0;
+     border-radius: 10px;
+     position:absolute;
+     left: 0;
+     bottom: 0;
+     z-index: -1;
+     font-family: 'Roboto Flex', sans-serif;
+     font-size: 500px;
+    transition: all 0.1s ease;
+    
+    
+
+
+ }
+ button:hover span{
+    width:100%;
+    text-decoration-color: blue;
+
+ }
+ button:hover{
+     border: none  ;
+     color: white;
+ }
